@@ -9,7 +9,13 @@ For more information see [the pidgin wiki](https://developer.pidgin.im/wiki/Smil
 You found an error or have an idea to make it better? Leave me a [ticket](https://github.com/Kaemmelot/WEmoji/issues/new).
 
 ## Versions ##
-10/14/2015 - First version. Checked against WhatsApp 2.12.309
+- 10/30/2015 - Added Emojis with skin tone modifier.
+- 10/14/2015 - First version. Checked against WhatsApp 2.12.309
+
+## TODOs (low priority) ##
+- There are still some mistakes due to file generation (e.g. 1f44d is 'thumbs up' but the current assigned alias e00e is nothing in WhatsApp)
+- A better order of Emojis (maybe same as original) would be helpful
+- Using multiple (especially skin colored) Emojis without spaces between them sometimes shows them as squares. Is this a problem of Pidgin itself?
 
 ## Further reading ##
 - [https://en.wikipedia.org/wiki/Emoji](https://en.wikipedia.org/wiki/Emoji)
